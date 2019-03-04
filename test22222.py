@@ -380,4 +380,12 @@ print('第二十二题:使用匿名函数实现两个数相乘')
 product = lambda x,y:x * y
 print(product(2,3))
 print(line)
-1111111111111111111111111111111111111111111111111
+
+print('第二十三题:字典根据键从大到小排序')
+test_dict = {1:'a',
+             3:'b',
+             2:'c'}
+test_set = sorted(test_dict.items())
+test_dict = dict(test_set)
+print(test_dict)
+print(line)
